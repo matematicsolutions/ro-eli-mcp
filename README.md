@@ -1,5 +1,7 @@
 # ro-eli-mcp
 
+<!-- mcp-name: io.github.matematicsolutions/ro-eli-mcp -->
+
 An MCP server for the Romanian **Portal Legislativ** (`legislatie.just.ro`), the Ministry of
 Justice legislative database, through its public **SOAP API**. It searches Romanian legislation
 and returns metadata and full text, with verifiable citations.
