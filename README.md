@@ -30,6 +30,14 @@ Every response carries the contract: `eli_uri` (the `legislatie.just.ro` URL),
 
 ## Install
 
+Run it with no install step (once published to PyPI):
+
+```bash
+uvx ro-eli-mcp
+```
+
+Or from source:
+
 ```bash
 cd ro-eli-mcp
 pip install -e .
