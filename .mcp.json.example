@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ro-eli-mcp": {
+      "command": "ro-eli-mcp",
+      "env": {
+        "RO_ELI_ENDPOINT": "https://legislatie.just.ro/apiws/FreeWebService.svc/SOAP",
+        "RO_ELI_CACHE_DIR": "~/.matematic/cache/ro-eli",
+        "RO_ELI_AUDIT_DIR": "~/.matematic/audit"
+      }
+    }
+  }
+}
