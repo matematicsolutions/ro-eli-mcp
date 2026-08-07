@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.matematicsolutions/ro-eli-mcp",
   "description": "MCP server for Romanian legislation (Portal Legislativ SOAP) with verifiable citations.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": {
     "url": "https://github.com/matematicsolutions/ro-eli-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "ro-eli-mcp",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"
