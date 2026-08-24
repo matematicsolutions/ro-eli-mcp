@@ -36,6 +36,7 @@ This MCP server exposes the Romanian Portal Legislativ (legislatie.just.ro), the
 
 ## Hard constraints
 
+- **Do not answer past the edge of this corpus** - when a search comes back empty, or the question touches material this connector does not carry, call `ro_coverage` and relay what it says is missing. Absence here is not absence in the law.
 - **Disambiguate by type** - the same `number`/`year` can exist across act types (LEGE, DECRET, HOTARARE, ORDONANTA...). When more than one matches, pass `tip_act`. Tools report `total_matches` so you know there were others.
 - **ELI is national, not data.europa.eu** - Romania has no `data.europa.eu` ELI for this portal; `eli_uri` is the canonical legislatie.just.ro document URL. Relay the `eli_note`. Do not invent it.
 - **Search caps at 10 per page** - paginate with `page` for more results.
