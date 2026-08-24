@@ -26,6 +26,7 @@ SOAP (a token obtained via `GetToken`, no registration, then `Search`).
 | `ro_search` | Search acts by title, text, year and/or number (metadata only). |
 | `ro_get_act` | Metadata for an act by number + year (+ `tip_act` to disambiguate). |
 | `ro_get_text` | Full text of an act by number + year (+ `tip_act`). |
+| `ro_coverage` | Declare what this connector covers, when each family was captured, and - explicitly - what it does NOT cover. Every gap carries a fallback. |
 
 Every response carries the contract: `eli_uri` (the `legislatie.just.ro` URL),
 `human_readable_citation` (e.g. `LEGE nr. 190/2018`), and `source_url`.
